@@ -45,8 +45,9 @@ img {
   border-radius: 20px 20px 0px 0px;
 }
 
-.hero h2 {
-  margin: 40px 0 20px 0;
+.hero h1 {
+  margin: 40px 0 15px 0;
+  font-size: 28px ;
   font-weight: 800;
   color: #1f2f56;
 }
@@ -74,31 +75,36 @@ img {
   transition: 0.5s;
 }
 
+.annual-plan .right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 .annual-plan .left-side a:hover {
   text-decoration: none;
   color: #918ade;
 }
 
-.annual-plan .right-side span p {
+.annual-plan .right-side p span  {
   font-weight: 900;
   color: #1f2f56;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .annual-plan .right-side p {
   color: #7280a7;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
-.annual-plan .right-side {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* .annual-plan .details p:nth-child(2) {
+  margin-top: 0;
+} */
 
 .annual-plan .right-side img {
   margin-right: 20px;
 }
+
 
 .proceed {
   text-decoration: none;
@@ -106,7 +112,7 @@ img {
   color: #fff;
   background-color: #3829e0;
   padding: 15px;
-  margin-top: 15px;
+  margin-top: 20px;
   width: 80%;
   border-radius: 10px;
   -webkit-box-shadow: -1px 10px 22px 5px rgba(214, 207, 255, 1);
@@ -130,7 +136,7 @@ img {
 }
 
 .cancel:hover {
-  color: #000;
+  color: #1f2f56;
 }
 
 @media (max-width: 500px) {
@@ -138,11 +144,14 @@ img {
     width: 80%;
     height: fit-content;
   }
-  .hero h2 {
+  .hero h1 {
     font-size: 25px;
   }
   .hero p {
     margin-bottom: 20px;
+  }
+  .annual-plan .right-side p {
+    font-size: 15px;
   }
 
   .proceed {
