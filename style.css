@@ -36,16 +36,16 @@ img {
   height: 700px;
   background-color: #fff;
   border-radius: 20px;
--webkit-box-shadow: -1px 10px 22px 5px rgba(220,225,247,1);
--moz-box-shadow: -1px 10px 22px 5px rgba(220,225,247,1);
-box-shadow: -1px 10px 22px 5px rgba(220,225,247,1);
+  -webkit-box-shadow: 2px 29px 31px 3px rgba(198, 207, 247, 1);
+  -moz-box-shadow: 2px 29px 31px 3px rgba(198, 207, 247, 1);
+  box-shadow: 2px 29px 31px 3px rgba(198, 207, 247, 1);
 }
 
 .hero img {
   border-radius: 20px 20px 0px 0px;
 }
 
-.hero h1 {
+.hero h2 {
   margin: 40px 0 20px 0;
   font-weight: 800;
   color: #1f2f56;
@@ -71,14 +71,13 @@ box-shadow: -1px 10px 22px 5px rgba(220,225,247,1);
 .annual-plan .left-side a {
   color: #3829e0;
   font-weight: bold;
-  transition: 0.5s ;
+  transition: 0.5s;
 }
 
 .annual-plan .left-side a:hover {
-    text-decoration: none;
-    color: #918ade;
+  text-decoration: none;
+  color: #918ade;
 }
-
 
 .annual-plan .right-side span p {
   font-weight: 900;
@@ -113,11 +112,11 @@ box-shadow: -1px 10px 22px 5px rgba(220,225,247,1);
   -webkit-box-shadow: -1px 10px 22px 5px rgba(214, 207, 255, 1);
   -moz-box-shadow: -1px 10px 22px 5px rgba(214, 207, 255, 1);
   box-shadow: -1px 10px 22px 5px rgba(214, 207, 255, 1);
-  transition: 0.5s ;
+  transition: 0.5s;
 }
 
 .proceed:hover {
-    background-color:  #918ade;;
+  background-color: #918ade;
 }
 
 .cancel {
@@ -126,30 +125,30 @@ box-shadow: -1px 10px 22px 5px rgba(220,225,247,1);
   color: #7280a7;
   width: 80%;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   transition: 0.5s;
 }
 
 .cancel:hover {
-    color: #000;
+  color: #000;
 }
 
-@media (max-width : 500px) {
-    .container {
-        width: 80%;
-        height: fit-content;
-    }
-    .hero h1 {
-        font-size: 25px;
-    }
-    .hero p {
-        margin-bottom: 20px;
-    }
+@media (max-width: 500px) {
+  .container {
+    width: 80%;
+    height: fit-content;
+  }
+  .hero h2 {
+    font-size: 25px;
+  }
+  .hero p {
+    margin-bottom: 20px;
+  }
 
-    .proceed {
-        margin-top: 20px;
-    }
-    .cancel {
-        margin-bottom: 20px;
-    }
+  .proceed {
+    margin-top: 20px;
+  }
+  .cancel {
+    margin-bottom: 20px;
+  }
 }
